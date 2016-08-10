@@ -1,4 +1,4 @@
-h3 {
+.heading {
     font-weight: bold;
     font-size: 40px;
 }
@@ -11,17 +11,14 @@ h3 {
     font-style: italic;
 }
 
-span {
-    font-weight: bold;
-}
-
 .list {
     list-style: none;
+    font-weight: bold;
 }
 
 .container {
     font-family: Helvetica, sans-serif;
-    max-width: 500px;
+    max-width: 350px;
     padding-left: 15px;
     padding-right: 15px;
     border: solid 2px #dcdcdc;
@@ -36,7 +33,9 @@ span {
 }
 
 .animal-image {
-    width: 500px;
+    width: 300px;
+    height:250px;
+    display: flex;
 }
 
 .animalbox {
